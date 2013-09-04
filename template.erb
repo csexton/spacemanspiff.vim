@@ -1,0 +1,104 @@
+set background=dark
+highlight clear
+if exists("syntax on")
+ syntax reset
+endif
+let g:colors_name="<%=name%>"
+
+highlight Normal                       guifg=<%=foreground%>   guibg=<%=background%>                 ctermfg=<%=c_foreground%>   ctermbg=NONE
+highlight LineNr                       guifg=<%=selection%>    guibg=NONE                            ctermfg=<%=c_selection%>    ctermbg=NONE
+highlight NonText                      guifg=<%=selection%>    guibg=NONE                            ctermfg=<%=c_selection%>    ctermbg=NONE
+highlight SpecialKey                   guifg=<%=selection%>    guibg=NONE                            ctermfg=<%=c_selection%>    ctermbg=NONE
+highlight Search                       guifg=<%=background%>   guibg=<%=yellow%>                     ctermfg=<%=c_background%>   ctermbg=<%=c_yellow%>
+highlight TabLine                      guifg=<%=foreground%>   guibg=<%=background%>   gui=reverse   ctermfg=<%=c_foreground%>   ctermbg=<%=c_background%>   cterm=reverse
+highlight StatusLine                   guifg=<%=foreground%>   guibg=<%=window%>       gui=NONE      ctermfg=<%=c_foreground%>   ctermbg=<%=c_window%>       cterm=NONE
+highlight StatusLineNC                 guifg=<%=background%>   guibg=<%=window%>       gui=NONE      ctermfg=<%=c_background%>   ctermbg=<%=c_window%>       cterm=NONE
+highlight VertSplit                    guifg=<%=window%>       guibg=<%=window%>       gui=NONE      ctermfg=<%=c_window%>       ctermbg=<%=c_window%>       cterm=NONE
+highlight Visual                       guifg=NONE              guibg=<%=selection%>                  ctermfg=NONE                ctermbg=<%=c_selection%>
+highlight Directory                    guifg=<%=blue%>         guibg=NONE                            ctermfg=<%=c_blue%>         ctermbg=NONE
+highlight ModeMsg                      guifg=<%=green%>        guibg=NONE                            ctermfg=<%=c_green%>        ctermbg=NONE
+highlight MoreMsg                      guifg=<%=green%>        guibg=NONE                            ctermfg=<%=c_green%>        ctermbg=NONE
+highlight Question                     guifg=<%=green%>        guibg=NONE                            ctermfg=<%=c_green%>        ctermbg=NONE
+highlight WarningMsg                   guifg=<%=red%>          guibg=NONE                            ctermfg=<%=c_red%>          ctermbg=NONE
+highlight MatchParen                   guifg=NONE              guibg=<%=selection%>                  ctermfg=NONE                ctermbg=<%=c_selection%>
+highlight Folded                       guifg=<%=comment%>      guibg=<%=background%>                 ctermfg=<%=c_comment%>      ctermbg=<%=c_background%>
+highlight FoldColumn                   guifg=NONE              guibg=<%=background%>                 ctermfg=NONE                ctermbg=<%=c_background%>
+highlight CursorLine                   guifg=NONE              guibg=<%=line%>         gui=NONE      ctermfg=NONE                ctermbg=<%=c_line%>         cterm=NONE
+highlight CursorColumn                 guifg=NONE              guibg=<%=line%>         gui=NONE      ctermfg=NONE                ctermbg=<%=c_line%>         cterm=NONE
+highlight PMenu                        guifg=<%=foreground%>   guibg=<%=selection%>    gui=NONE      ctermfg=<%=c_foreground%>   ctermbg=<%=c_selection%>    cterm=NONE
+highlight PMenuSel                     guifg=<%=foreground%>   guibg=<%=selection%>    gui=reverse   ctermfg=<%=c_foreground%>   ctermbg=<%=c_selection%>    cterm=reverse
+highlight ColorColumn                  guifg=NONE              guibg=<%=line%>         gui=NONE      ctermfg=NONE                ctermbg=<%=c_line%>         cterm=NONE
+highlight Comment                      guifg=<%=comment%>      guibg=NONE                            ctermfg=<%=c_comment%>      ctermbg=NONE
+highlight Todo                         guifg=<%=comment%>      guibg=<%=background%>                 ctermfg=<%=c_comment%>      ctermbg=<%=c_background%>
+highlight Title                        guifg=<%=comment%>      guibg=NONE                            ctermfg=<%=c_comment%>      ctermbg=NONE
+highlight Identifier                   guifg=<%=red%>          guibg=NONE              gui=NONE      ctermfg=<%=c_red%>          ctermbg=NONE                cterm=NONE
+highlight Statement                    guifg=<%=foreground%>   guibg=NONE                            ctermfg=<%=c_foreground%>   ctermbg=NONE
+highlight Conditional                  guifg=<%=foreground%>   guibg=NONE                            ctermfg=<%=c_foreground%>   ctermbg=NONE
+highlight Repeat                       guifg=<%=foreground%>   guibg=NONE                            ctermfg=<%=c_foreground%>   ctermbg=NONE
+highlight Structure                    guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight Function                     guifg=<%=blue%>         guibg=NONE                            ctermfg=<%=c_blue%>         ctermbg=NONE
+highlight Constant                     guifg=<%=orange%>       guibg=NONE                            ctermfg=<%=c_orange%>       ctermbg=NONE
+highlight String                       guifg=<%=green%>        guibg=NONE                            ctermfg=<%=c_green%>        ctermbg=NONE
+highlight Special                      guifg=<%=foreground%>   guibg=NONE                            ctermfg=<%=c_foreground%>   ctermbg=NONE
+highlight PreProc                      guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight Operator                     guifg=<%=aqua%>         guibg=NONE              gui=NONE      ctermfg=<%=c_aqua%>         ctermbg=NONE                cterm=NONE
+highlight Type                         guifg=<%=blue%>         guibg=NONE              gui=NONE      ctermfg=<%=c_blue%>         ctermbg=NONE                cterm=NONE
+highlight Define                       guifg=<%=purple%>       guibg=NONE              gui=NONE      ctermfg=<%=c_purple%>       ctermbg=NONE                cterm=NONE
+highlight Include                      guifg=<%=blue%>         guibg=NONE                            ctermfg=<%=c_blue%>         ctermbg=NONE
+highlight vimCommand                   guifg=<%=red%>          guibg=NONE              gui=NONE      ctermfg=<%=c_red%>          ctermbg=NONE                cterm=NONE
+highlight cType                        guifg=<%=yellow%>       guibg=NONE                            ctermfg=<%=c_yellow%>       ctermbg=NONE
+highlight cStorageClass                guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight cConditional                 guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight cRepeat                      guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight phpVarSelector               guifg=<%=red%>          guibg=NONE                            ctermfg=<%=c_red%>          ctermbg=NONE
+highlight phpKeyword                   guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight phpRepeat                    guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight phpConditional               guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight phpStatement                 guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight phpMemberSelector            guifg=<%=foreground%>   guibg=NONE                            ctermfg=<%=c_foreground%>   ctermbg=NONE
+highlight rubySymbol                   guifg=<%=green%>        guibg=NONE                            ctermfg=<%=c_green%>        ctermbg=NONE
+highlight rubyConstant                 guifg=<%=yellow%>       guibg=NONE                            ctermfg=<%=c_yellow%>       ctermbg=NONE
+highlight rubyAttribute                guifg=<%=blue%>         guibg=NONE                            ctermfg=<%=c_blue%>         ctermbg=NONE
+highlight rubyInclude                  guifg=<%=blue%>         guibg=NONE                            ctermfg=<%=c_blue%>         ctermbg=NONE
+highlight rubyLocalVariableOrMethod    guifg=<%=orange%>       guibg=NONE                            ctermfg=<%=c_orange%>       ctermbg=NONE
+highlight rubyCurlyBlock               guifg=<%=orange%>       guibg=NONE                            ctermfg=<%=c_orange%>       ctermbg=NONE
+highlight rubyStringDelimiter          guifg=<%=green%>        guibg=NONE                            ctermfg=<%=c_green%>        ctermbg=NONE
+highlight rubyInterpolationDelimiter   guifg=<%=orange%>       guibg=NONE                            ctermfg=<%=c_orange%>       ctermbg=NONE
+highlight rubyConditional              guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight rubyRepeat                   guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight pythonInclude                guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight pythonStatement              guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight pythonConditional            guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight pythonFunction               guifg=<%=blue%>         guibg=NONE                            ctermfg=<%=c_blue%>         ctermbg=NONE
+highlight javaScriptBraces             guifg=<%=foreground%>   guibg=NONE                            ctermfg=<%=c_foreground%>   ctermbg=NONE
+highlight javaScriptFunction           guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight javaScriptConditional        guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight javaScriptRepeat             guifg=<%=purple%>       guibg=NONE                            ctermfg=<%=c_purple%>       ctermbg=NONE
+highlight javaScriptNumber             guifg=<%=orange%>       guibg=NONE                            ctermfg=<%=c_orange%>       ctermbg=NONE
+highlight javaScriptMember             guifg=<%=orange%>       guibg=NONE                            ctermfg=<%=c_orange%>       ctermbg=NONE
+highlight diffAdded                    guifg=<%=green%>        guibg=NONE                            ctermfg=<%=c_green%>        ctermbg=NONE
+highlight diffRemoved                  guifg=<%=red%>          guibg=NONE                            ctermfg=<%=c_red%>          ctermbg=NONE
+
+highlight link character constant
+highlight link number constant
+highlight link boolean constant
+highlight link Float Number
+highlight link Conditional Repeat
+highlight link Label Statement
+highlight link Keyword Statement
+highlight link Exception Statement
+highlight link Include PreProc
+highlight link Define PreProc
+highlight link Macro PreProc
+highlight link PreCondit PreProc
+highlight link StorageClass Type
+highlight link Structure Type
+highlight link Typedef Type
+highlight link htmlTag Special
+highlight link Tag Special
+highlight link SpecialChar Special
+highlight link Delimiter Special
+highlight link SpecialComment Special
+highlight link Debug Special
+highlight htmlItalic cterm=none
+highlight PmenuSel ctermbg=black
