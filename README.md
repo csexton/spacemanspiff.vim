@@ -1,4 +1,4 @@
-<img src="https://github.com/csexton/spacemanspiff.vim/raw/master/resources/spacemanspiff.svg" />
+<img src="https://raw.github.com/csexton/spacemanspiff.vim/master/resources/spacemanspiff.svg" />
 
 ## Why?
 
@@ -19,7 +19,7 @@ I set this up by editing my terminal (in my case Terminal.app) by opening Prefer
 005.220: sourcing ~/.vim/colors/spacemanspiff.vim
 ```
 
-Times in msecs.
+Times in msecs, yo.
 
 ## This looks familiar!
 
