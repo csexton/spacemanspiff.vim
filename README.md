@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/csexton/spacemanspiff.vim/master/resources/spacemanspiff.svg" />
+<img src="https://rawgithub.com/csexton/spacemanspiff.vim/master/resources/spacemanspiff.svg" />
 
 ## Why?
 
