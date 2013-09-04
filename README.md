@@ -6,11 +6,17 @@ I am a bit obsessive about my vim startup time. Turns out that computing hundred
 
 This is achieved by a simple `Rakefile` that will expand a bit of YAML into a template. It does the computation once so we don't do it every single time we start our editor.
 
-## Terminal
+## Screeshot!
+
+![Terminal.app Screeshot](https://raw.github.com/csexton/spacemanspiff.vim/master/resources/screenshot.png)
+
+## Terminal?
 
 Like [Solarized](http://ethanschoonover.com/solarized), [Tomorrow](https://github.com/chriskempson/tomorrow-theme) and [Base16](https://github.com/chriskempson/base16-vim), this requires you to change your terminal colors. Unlike those projects there is no fall back. If you don't set the terminal colors it will look pretty horrid.
 
 I set this up by editing my terminal (in my case Terminal.app) by opening Preferences, clicking on the Settings tab, and editing the ANSI Colors to match the hex values in [colors.yml](https://github.com/csexton/spacemanspiff.vim/blob/master/src/colors.yml).
+
+![Terminal.app Screeshot](https://raw.github.com/csexton/spacemanspiff.vim/master/resources/terminal-preferences.png)
 
 ## Benchmarks?
 
