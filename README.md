@@ -10,6 +10,14 @@ This is achieved by a simple `Rakefile` that will expand a bit of YAML into a te
 
 ![Terminal.app Screeshot](https://raw.github.com/csexton/spacemanspiff.vim/master/resources/screenshot.png)
 
+## Install
+
+```bash
+curl https://raw.github.com/csexton/spacemanspiff.vim/master/colors/spacemanspiff.vim > ~/.vim/colors/spacemanspiff.vim
+```
+
+Or use [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle).
+
 ## Terminal?
 
 Like [Solarized](http://ethanschoonover.com/solarized), [Tomorrow](https://github.com/chriskempson/tomorrow-theme) and [Base16](https://github.com/chriskempson/base16-vim), this requires you to change your terminal colors. Unlike those projects there is no fall back. If you don't set the terminal colors it will look pretty horrid.
