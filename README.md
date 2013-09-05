@@ -26,6 +26,10 @@ I set this up by editing my terminal (in my case Terminal.app) by opening Prefer
 
 ![Terminal.app Screeshot](https://raw.github.com/csexton/spacemanspiff.vim/master/resources/terminal-preferences.png)
 
+## Building
+
+Edit `src/colors.yml` and run `rake` and the colorscheme will be regenerated and placed in `colors`. Feel free to modify the template or the colors yaml, but you should not edit the generated file directly.
+
 ## Benchmarks?
 
 ```
@@ -38,3 +42,4 @@ Times in msecs, yo.
 ## This looks familiar!
 
 My colors are based off of the awesome [Tomorrow-Night](https://github.com/chriskempson/tomorrow-theme) colorscheme. I've made a few tweaks to suit my personal preference.
+
