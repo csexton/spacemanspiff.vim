@@ -6,7 +6,7 @@ endif
 let g:colors_name="spacemanspiff"
 
 highlight Normal guifg=#c5c8c6 guibg=#1d1f21 ctermfg=7 ctermbg=NONE
-highlight LineNr guifg=#373b41 guibg=NONE ctermfg=0 ctermbg=NONE
+highlight LineNr guifg=#4d5057 guibg=NONE ctermfg=8 ctermbg=NONE
 highlight NonText guifg=#373b41 guibg=NONE ctermfg=0 ctermbg=NONE
 highlight SpecialKey guifg=#373b41 guibg=NONE ctermfg=0 ctermbg=NONE
 highlight Search guifg=#1d1f21 guibg=#f0c674 ctermfg=16 ctermbg=3
