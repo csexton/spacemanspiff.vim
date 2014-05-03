@@ -6,27 +6,27 @@ endif
 let g:colors_name="spacemanspiff"
 
 highlight Normal guifg=#c5c8c6 guibg=#1d1f21 ctermfg=7 ctermbg=NONE
-highlight LineNr guifg=#4d5057 guibg=NONE ctermfg=240 ctermbg=NONE
-highlight NonText guifg=#373b41 guibg=NONE ctermfg=0 ctermbg=NONE
-highlight SpecialKey guifg=#373b41 guibg=NONE ctermfg=0 ctermbg=NONE
+highlight LineNr guifg=#373b41 guibg=NONE ctermfg=238 ctermbg=NONE
+highlight NonText guifg=#373b41 guibg=NONE ctermfg=238 ctermbg=NONE
+highlight SpecialKey guifg=#373b41 guibg=NONE ctermfg=238 ctermbg=NONE
 highlight Search guifg=#1d1f21 guibg=#f0c674 ctermfg=16 ctermbg=3
 highlight TabLine guifg=#c5c8c6 guibg=#1d1f21 gui=reverse ctermfg=7 ctermbg=16 cterm=reverse
 highlight StatusLine guifg=#c5c8c6 guibg=#4d5057 gui=NONE ctermfg=7 ctermbg=240 cterm=NONE
 highlight StatusLineNC guifg=#1d1f21 guibg=#4d5057 gui=NONE ctermfg=16 ctermbg=240 cterm=NONE
 highlight VertSplit guifg=#4d5057 guibg=#4d5057 gui=NONE ctermfg=240 ctermbg=240 cterm=NONE
-highlight Visual guifg=NONE guibg=#373b41 ctermfg=NONE ctermbg=0
+highlight Visual guifg=NONE guibg=#373b41 ctermfg=NONE ctermbg=238
 highlight Directory guifg=#81a2be guibg=NONE ctermfg=4 ctermbg=NONE
 highlight ModeMsg guifg=#b5bd68 guibg=NONE ctermfg=2 ctermbg=NONE
 highlight MoreMsg guifg=#b5bd68 guibg=NONE ctermfg=2 ctermbg=NONE
 highlight Question guifg=#b5bd68 guibg=NONE ctermfg=2 ctermbg=NONE
 highlight WarningMsg guifg=#cc6666 guibg=NONE ctermfg=1 ctermbg=NONE
-highlight MatchParen guifg=NONE guibg=#373b41 ctermfg=NONE ctermbg=0
+highlight MatchParen guifg=NONE guibg=#373b41 ctermfg=NONE ctermbg=238
 highlight Folded guifg=#969896 guibg=#1d1f21 ctermfg=245 ctermbg=16
 highlight FoldColumn guifg=NONE guibg=#1d1f21 ctermfg=NONE ctermbg=16
 highlight CursorLine guifg=NONE guibg=#282a2e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 highlight CursorColumn guifg=NONE guibg=#282a2e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
-highlight PMenu guifg=#c5c8c6 guibg=#373b41 gui=NONE ctermfg=7 ctermbg=0 cterm=NONE
-highlight PMenuSel guifg=#c5c8c6 guibg=#373b41 gui=reverse ctermfg=7 ctermbg=0 cterm=reverse
+highlight PMenu guifg=#c5c8c6 guibg=#373b41 gui=NONE ctermfg=7 ctermbg=238 cterm=NONE
+highlight PMenuSel guifg=#c5c8c6 guibg=#373b41 gui=reverse ctermfg=7 ctermbg=238 cterm=reverse
 highlight ColorColumn guifg=NONE guibg=#282a2e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 highlight Comment guifg=#969896 guibg=NONE ctermfg=245 ctermbg=NONE
 highlight Todo guifg=#969896 guibg=#1d1f21 ctermfg=245 ctermbg=16
