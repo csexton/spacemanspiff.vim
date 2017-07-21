@@ -42,6 +42,11 @@ highlight String guifg=#b5bd68 guibg=NONE ctermfg=2 ctermbg=NONE
 highlight Special guifg=#c5c8c6 guibg=NONE ctermfg=7 ctermbg=NONE
 highlight PreProc guifg=#b294bb guibg=NONE ctermfg=5 ctermbg=NONE
 highlight Operator guifg=#8abeb7 guibg=NONE gui=NONE ctermfg=6 ctermbg=NONE cterm=NONE
+highlight DiffAdd guifg=#1d1f21 guibg=#b5bd68 ctermfg=16 ctermbg=2
+highlight DiffChange guifg=#1d1f21 guibg=#b5bd68 ctermfg=16 ctermbg=2
+highlight DiffText guifg=#1d1f21 guibg=#f0c674 ctermfg=16 ctermbg=3
+highlight DiffDelete guifg=#1d1f21 guibg=#cc6666 ctermfg=16 ctermbg=1
+
 highlight Type guifg=#81a2be guibg=NONE gui=NONE ctermfg=4 ctermbg=NONE cterm=NONE
 highlight Define guifg=#b294bb guibg=NONE gui=NONE ctermfg=5 ctermbg=NONE cterm=NONE
 highlight Include guifg=#81a2be guibg=NONE ctermfg=4 ctermbg=NONE
