@@ -83,6 +83,8 @@ highlight javaScriptNumber guifg=#de935f guibg=NONE ctermfg=3 ctermbg=NONE
 highlight javaScriptMember guifg=#de935f guibg=NONE ctermfg=3 ctermbg=NONE
 highlight diffAdded guifg=#b5bd68 guibg=NONE ctermfg=2 ctermbg=NONE
 highlight diffRemoved guifg=#cc6666 guibg=NONE ctermfg=1 ctermbg=NONE
+highlight goPackage guifg=#81a2be guibg=NONE ctermfg=4 ctermbg=NONE
+highlight goConst guifg=#f0c674 guibg=NONE ctermfg=3 ctermbg=NONE
 
 highlight link character constant
 highlight link number constant
@@ -90,14 +92,13 @@ highlight link boolean constant
 highlight link Float Number
 highlight link Conditional Repeat
 highlight link Label Statement
-highlight link Keyword Statement
+highlight link Keyword Structure
 highlight link Exception Statement
 highlight link Include PreProc
 highlight link Define PreProc
 highlight link Macro PreProc
 highlight link PreCondit PreProc
 highlight link StorageClass Type
-highlight link Structure Type
 highlight link Typedef Type
 highlight link htmlTag Special
 highlight link Tag Special
@@ -107,3 +108,4 @@ highlight link SpecialComment Special
 highlight link Debug Special
 highlight htmlItalic cterm=none
 highlight PmenuSel ctermbg=black
+
