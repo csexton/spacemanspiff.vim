@@ -16,15 +16,15 @@ This is achieved by a simple `Rakefile` that will expand a bit of YAML into a te
 curl https://raw.github.com/csexton/spacemanspiff.vim/master/colors/spacemanspiff.vim > ~/.vim/colors/spacemanspiff.vim
 ```
 
-Or use [Pathogen](https://github.com/tpope/vim-pathogen) or [Vundle](https://github.com/gmarik/vundle).
+Or use your [favorite](https://github.com/csexton/infect) vim plugin manager by pointing it to this repo.
 
 ## Terminal?
 
 Like [Solarized](http://ethanschoonover.com/solarized), [Tomorrow](https://github.com/chriskempson/tomorrow-theme) and [Base16](https://github.com/chriskempson/base16-vim), this requires you to change your terminal colors. Unlike those projects there is no fall back. If you don't set the terminal colors it will look pretty horrid.
 
-I set this up by editing my terminal (in my case Terminal.app) by opening Preferences, clicking on the Settings tab, and editing the ANSI Colors to match the hex values in [colors.yml](https://github.com/csexton/spacemanspiff.vim/blob/master/src/colors.yml).
+Settings for iTerm can be grabbed from the [`Spaceman Spiff.itermcolors`](https://github.com/csexton/spacemanspiff.vim/blob/master/iterm2/Spaceman%20Spiff.itermcolors) directory in this repo, but other terminals you can will need to edit the preferences for your terminal. The hex values for the ANSI Colors can be found in [colors.yml](https://github.com/csexton/spacemanspiff.vim/blob/master/src/colors.yml).
 
-![Terminal.app Screeshot](https://raw.github.com/csexton/spacemanspiff.vim/master/resources/terminal-preferences.png)
+![Terminal Screeshot](https://raw.github.com/csexton/spacemanspiff.vim/master/resources/terminal-preferences.png)
 
 ## Building
 
