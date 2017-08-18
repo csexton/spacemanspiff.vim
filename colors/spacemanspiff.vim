@@ -8,7 +8,7 @@ let g:colors_name="spacemanspiff"
 highlight Normal guifg=#c5c8c6 guibg=#1d1f21 ctermfg=7 ctermbg=NONE
 highlight ColorColumn guifg=NONE guibg=#282a2e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 highlight Comment guifg=#969896 guibg=NONE ctermfg=245 ctermbg=NONE
-highlight Conditional guifg=#b1e7e0 guibg=NONE ctermfg=12 ctermbg=NONE
+highlight Conditional guifg=#85def4 guibg=NONE ctermfg=12 ctermbg=NONE
 highlight Constant guifg=#ff9a54 guibg=NONE ctermfg=11 ctermbg=NONE
 highlight CursorColumn guifg=NONE guibg=#282a2e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 highlight CursorLine guifg=NONE guibg=#282a2e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
