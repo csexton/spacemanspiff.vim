@@ -43,6 +43,8 @@ highlight SpellLocal guifg=#1d1f21 guibg=#80c1ca gui=NONE ctermfg=16 ctermbg=6 c
 highlight Statement guifg=#80c1ca guibg=NONE ctermfg=6 ctermbg=NONE
 highlight StatusLine guifg=#c5c8c6 guibg=#4d5057 gui=NONE ctermfg=7 ctermbg=240 cterm=NONE
 highlight StatusLineNC guifg=#1d1f21 guibg=#4d5057 gui=NONE ctermfg=16 ctermbg=240 cterm=NONE
+highlight StatusLineTerm guifg=#1d1f21 guibg=#83ac75 gui=NONE ctermfg=16 ctermbg=2 cterm=NONE
+highlight StatusLineTermNC guifg=#1d1f21 guibg=#4d5057 gui=NONE ctermfg=16 ctermbg=240 cterm=NONE
 highlight String guifg=#83ac75 guibg=NONE ctermfg=2 ctermbg=NONE
 highlight Structure guifg=#9a93e1 guibg=NONE ctermfg=5 ctermbg=NONE
 highlight TabLine guifg=#c5c8c6 guibg=#1d1f21 gui=reverse ctermfg=7 ctermbg=16 cterm=reverse
