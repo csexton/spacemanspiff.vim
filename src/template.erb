@@ -5,6 +5,29 @@ if exists("syntax on")
 endif
 let g:colors_name="<%=name%>"
 
+
+if !exists("g:spacemanspiff_skip_terminal_ansi_colors")
+  let g:terminal_ansi_colors = [
+  \   '<%=window%>',
+  \   '<%=red%>',
+  \   '<%=green%>',
+  \   '<%=yellow%>',
+  \   '<%=blue%>',
+  \   '<%=purple%>',
+  \   '<%=aqua%>',
+  \   '<%=foreground%>',
+  \   '<%=window%>',
+  \   '<%=bright_red%>',
+  \   '<%=bright_green%>',
+  \   '<%=orange%>',
+  \   '<%=blue%>',
+  \   '<%=magenta%>',
+  \   '<%=cyan%>',
+  \   '<%=foreground%>'
+  \ ]
+
+endif
+
 highlight Normal                       guifg=<%=foreground%>   guibg=<%=background%>                 ctermfg=<%=c_foreground%>   ctermbg=NONE
 highlight ColorColumn                  guifg=NONE              guibg=<%=line%>         gui=NONE      ctermfg=NONE                ctermbg=<%=c_line%>         cterm=NONE
 highlight Comment                      guifg=<%=comment%>      guibg=NONE                            ctermfg=<%=c_comment%>      ctermbg=NONE
