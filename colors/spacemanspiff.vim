@@ -5,6 +5,29 @@ if exists("syntax on")
 endif
 let g:colors_name="spacemanspiff"
 
+
+if !exists("g:spacemanspiff_skip_terminal_ansi_colors")
+ let g:terminal_ansi_colors = [
+ \ '#4d5057',
+ \ '#cb817c',
+ \ '#83ac75',
+ \ '#f6e5af',
+ \ '#83afe5',
+ \ '#9a93e1',
+ \ '#80c1ca',
+ \ '#c5c8c6',
+ \ '#4d5057',
+ \ '#da4e4a',
+ \ '#9dcf8d',
+ \ '#ff9a54',
+ \ '#83afe5',
+ \ '#d08ec2',
+ \ '#85def4',
+ \ '#c5c8c6'
+ \ ]
+
+endif
+
 highlight Normal guifg=#c5c8c6 guibg=#1d1f21 ctermfg=7 ctermbg=NONE
 highlight ColorColumn guifg=NONE guibg=#282a2e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 highlight Comment guifg=#969896 guibg=NONE ctermfg=245 ctermbg=NONE
